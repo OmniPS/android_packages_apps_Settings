@@ -119,7 +119,7 @@ public class AppOpsSummary extends InstrumentedPreferenceFragment {
         final int colorAccent = ta.getColor(0, 0);
         ta.recycle();
 
-        tabs.setTabIndicatorColorResource(colorAccent);
+        tabs.setTabIndicatorColor(colorAccent);
 
         // We have to do this now because PreferenceFrameLayout looks at it
         // only when the view is added.

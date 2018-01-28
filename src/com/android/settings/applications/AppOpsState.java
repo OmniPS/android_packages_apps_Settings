@@ -182,7 +182,8 @@ public class AppOpsState {
                     false,
                     false,
                     false,
-                    false }
+                    false,
+		    false }
             );
 
     public static final OpsTemplate DEVICE_TEMPLATE = new OpsTemplate(
