@@ -230,7 +230,7 @@ public class CellDataPreference extends CustomDialogPreference implements Templa
         if (mMultiSimDialog) {
             mSubscriptionManager.setDefaultDataSubId(mSubId);
             setMobileDataEnabled(true);
-            disableDataForOtherSubscriptions(mSubId);
+            //disableDataForOtherSubscriptions(mSubId); SDV! WTF?
         } else {
             // TODO: extend to modify policy enabled flag.
             setMobileDataEnabled(false);
