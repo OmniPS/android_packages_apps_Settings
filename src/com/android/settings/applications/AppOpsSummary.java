@@ -42,6 +42,7 @@ public class AppOpsSummary extends InstrumentedPreferenceFragment {
 
     CharSequence[] mPageNames;
     static AppOpsState.OpsTemplate[] sPageTemplates = new AppOpsState.OpsTemplate[] {
+        AppOpsState.RUN_IN_BACKGROUND_TEMPLATE,
         AppOpsState.LOCATION_TEMPLATE,
         AppOpsState.PERSONAL_TEMPLATE,
         AppOpsState.MESSAGING_TEMPLATE,
